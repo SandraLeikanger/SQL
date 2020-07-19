@@ -1,0 +1,13 @@
+CREATE DATABASE tap02;
+
+USE tap02;
+
+CREATE TABLE CostumerInfo(
+		C_ID INT NOT NULL,
+		CName VARCHAR(50) NOT NULL,
+		CAddress VARCHAR(100) NOT NULL,
+		CPhoneNumber INT,
+		PRIMARY KEY (C_ID)
+		);
+
+INSERT INTO  CostumerInfo VALUES (1, "Joe", "Skoveien 11", 23657897);
